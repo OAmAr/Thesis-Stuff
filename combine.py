@@ -38,8 +38,8 @@ filenames = \
     "skqd_6.csv",\
 ]
 
-with open('combined.csv', 'w+') as f:
-    files = [open(filename, "r") for filename in filenames[1:]]
+with open('data/combined.csv', 'w+') as f:
+    files = [open("data/"+filename, "r") for filename in filenames[1:]]
     print(",".join(["\"{}\"".format(label) for label in labels]))
     f.write(",".join(["\"{}\"".format(label) for label in labels])+'\n')
     while True:

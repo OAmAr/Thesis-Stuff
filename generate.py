@@ -11,23 +11,23 @@ def drange(x,y,jump):
 
 step  = '.001'
 
-bb84_1_file   = "bb84_N_1.csv"
-bb84_2_file   = "bb84_N_2.csv"
-bb84_3_file   = "bb84_N_3.csv"
-bb84_4_file   = "bb84_N_4.csv"
-bb84_5_file   = "bb84_N_5.csv"
-bb84_6_file   = "bb84_N_6.csv"
+bb84_1_file   = "data/bb84_N_1.csv"
+bb84_2_file   = "data/bb84_N_2.csv"
+bb84_3_file   = "data/bb84_N_3.csv"
+bb84_4_file   = "data/bb84_N_4.csv"
+bb84_5_file   = "data/bb84_N_5.csv"
+bb84_6_file   = "data/bb84_N_6.csv"
 
-state_1_file  = "6state_N_1.csv"
-state_2_file  = "6state_N_2.csv"
-state_3_file  = "6state_N_3.csv"
+state_1_file  = "data/6state_N_1.csv"
+state_2_file  = "data/6state_N_2.csv"
+state_3_file  = "data/6state_N_3.csv"
 
-skqd_1_file   = "skqd_1.csv"
-skqd_2_file   = "skqd_2.csv"
-skqd_3_file   = "skqd_3.csv"
-skqd_4_file   = "skqd_4.csv"
-skqd_5_file   = "skqd_5.csv"
-skqd_6_file   = "skqd_6.csv"
+skqd_1_file   = "data/skqd_1.csv"
+skqd_2_file   = "data/skqd_2.csv"
+skqd_3_file   = "data/skqd_3.csv"
+skqd_4_file   = "data/skqd_4.csv"
+skqd_5_file   = "data/skqd_5.csv"
+skqd_6_file   = "data/skqd_6.csv"
 
 def bb84_test(filename, N, qx_lambda):
     with open(filename, 'w+') as f:
